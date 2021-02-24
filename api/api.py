@@ -6,6 +6,7 @@ from flask import Flask
 # not encrypted.
 app = Flask(__name__, static_folder='../build', static_url_path='/')
 
+
 # localhost:5000
 @app.route('/')
 def index():
