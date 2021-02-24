@@ -4,7 +4,7 @@ from flask import Flask
 # deployment via Python directly
 # yarn build then =>
 # not encrypted.
-app = Flask(__name__, static_folder='../build', static_url_path='/')
+app = Flask(__name__, static_folder='./build', static_url_path='')
 
 
 # localhost:5000
